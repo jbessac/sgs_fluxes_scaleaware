@@ -25,7 +25,8 @@ n <- 1
 # this has to be run for all k=1:length(indnx) ; not to run serially, to be parallelized
 k <- 7
 nx <- indnx[k]  # the coarsening will average nx=21*nx=21 grid-points into a grid-box
-source('coarsen_data.r') # need n and nx to be defined outside 
+source('coarsen_data.r') # need n and nx to be defined outside
+# coarsened true and resolved fluxes will be saved in main folder 
 
 
 
